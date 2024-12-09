@@ -41,7 +41,28 @@ The project is organized into the following sections:
   Built using **Kivy**, the app is compatible with both desktop and mobile platforms, with integration of **TensorFlow Lite** for lightweight mobile inference.
 
 ---
+## Installation
 
+1. **Download the `server.py` file**  
+   Clone or download the `server.py` file from this repository. Make sure your laptop/PC has the capability to run the FasterRCNN and GPT-2 models.
+   
+2. **Download the required models**  
+   Go to [Google Drive](https://drive.google.com/drive/folders/1w-QA54wFstuAa2xmZ5M1Xu8UNZT7rw4N?usp=drive_link).  
+   Download the `FasterRCNN_ResNet50_FPN_model.pth` file from the `models` folder and save it in the same directory as `server.py` under a folder named `models`.
+
+3. **Download the trained GPT-2 model**  
+   Save the `trained_gpt2_model` folder (available at the same Google Drive link) in the same directory as `server.py`.
+
+4. **Download and install the APK**  
+   Download the APK from the Google Drive link above and install it on your mobile device.
+
+In the end, on the local device, the folder structure should look like this:
+- server.py
+- models
+   - FasterRCNN_ResNet50_FPN_model.pth
+- trained_gpt2_model
+
+---
 ## Technologies Used
 
 - **Programming Languages**: Python
